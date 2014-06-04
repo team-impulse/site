@@ -15,11 +15,49 @@
 	color:white;
 	margin:0px;
 	
-	padding:50px 0 50px 0;	
+	padding:50px 0 5px 0;	
 	
 	font-size:1.5em;
-	font-family:raleway-thin;
+	font-family:junction;
 	
+}
+
+#nav {
+	display:block;
+	margin:0.5% auto 0 auto;
+	text-align:center;
+
+}
+#nav li {
+	display:inline;
+	text-align:center;
+	margin:0 2%;
+	list-style-type:none;
+}
+#normal_nav li { /* normal_nav can be applied to the div using javascript for normal browsers to make everything centre properly, but anything non-widescreen needs standard #nav */
+	display:inline-block;
+	text-align:center;
+	width:12%;
+	margin:0 2%;
+	list-style-type:none;
+	border-left:2px solid white;
+	border-right:2px solid white;
+	
+}
+#nav a {
+	color:#008F00;
+	text-decoration:none;
+	font-size:1.5em;
+	transition: font-size 1.5s;
+	transition:	color 0.2s;
+		font-family:junction;
+	
+}
+#nav a:hover {
+	color:white;
+	text-decoration:underline;
+	font-size:1.6em;
+
 }
 
 #content_wrapper {
@@ -84,9 +122,29 @@ text-align:center;
 #meet_team_list img {
 	width:100%;
 }
-@font-face{
-	font-family: raleway-thin;
-	src: url(fonts/raleway_thin-webfont.woff);
+#footer {
+	
+	display:block;
+	margin:0px auto;
+	background:#8F0000;
+
+	text-align:center;
+	color:white;
+}
+
+#social {
+	border:3px solid white;
+	border-top:none;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	padding:2%;
+	margin:0px auto 1% auto;
+	width:25%;
+	background:#006400;
+	color:white;
+}
+#social a {
+	color:white;
 }
 @font-face{
 	font-family: junction;
