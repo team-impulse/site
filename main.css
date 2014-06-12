@@ -49,7 +49,7 @@
 	text-decoration:none;
 	font-size:1.5em;
 	transition: font-size 1.5s;
-	transition:	color 0.2s;
+	transition:	color 0.6s;
 		font-family:junction;
 	
 }
@@ -66,8 +66,8 @@
 }
 
 #blog_posts {
-	width:35%;
-	
+	width:75%;
+	margin-top:3%;
 	float:right;
 	border-left: 5px dotted #8F0000;
 	border-bottom:5px dotted #8F0000;
@@ -80,18 +80,26 @@
 
 #about_us {
 	float:left;
-	width:50%;
+	width:75%;
 	padding:3px 3px 3px 15px;
 	border-right: 2px solid #8F0000;
 	border-bottom:2px solid #8F0000;
 	border-top:2px solid #8F0000;
+	margin-bottom:2%;
 	border-bottom-right-radius:15px;
 	border-top-right-radius:15px;
 }
+
+#logo_div img{
+	height:200px;
+	clear:both;
+	display:block;
+	margin:1% auto;
+}
+
 #about_blog_wrapper {
 	background-image:url(img/bg_green.svg);
 	background-size:50%;
-
 	display:block;
 	padding:1% 0px 2% 0px;
 	}
@@ -99,6 +107,7 @@
 	background-image:url(img/logo.svg);
 	width:50px;
 	height:50px;
+	text-align:center;
 }
 #meet_team {
 text-align:center;
@@ -121,6 +130,7 @@ text-align:center;
 }
 #meet_team_list img {
 	width:100%;
+	
 }
 #footer {
 	
