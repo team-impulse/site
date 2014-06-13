@@ -1,8 +1,6 @@
 * {
 	margin:0px;
-	padding:0px;
-
-	
+	padding:0px;	
 }
 .clear_both {
 	clear:both;
@@ -73,7 +71,6 @@
 
 #blog_posts {
 	width:75%;
-	margin-top:2%;
 	float:right;
 	border-left: 5px dotted #8F0000;
 	border-bottom:5px dotted #8F0000;
@@ -91,7 +88,7 @@
 	border-right: 2px solid #8F0000;
 	border-bottom:2px solid #8F0000;
 	border-top:2px solid #8F0000;
-	margin-bottom:2%;
+	
 	border-bottom-right-radius:15px;
 	border-top-right-radius:15px;
 }
