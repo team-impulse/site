@@ -119,16 +119,19 @@ text-align:center;
 	padding:3px;
 	margin:2.5% 3%;
 	list-style-type: none;
-	text-align:center;
+	text-align:left;
 	background:white;
-	border-radius:15px;
-	
-	
+	border-radius:15px;	
+}
+#meet_team_list h4 {
+	text-align:center;
 }
 #meet_team_list img {
 	width:50%;
-	
-	
+	float:left;
+}
+#meet_team_list {
+	clear:none;
 }
 #footer {
 	
