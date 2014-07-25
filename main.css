@@ -191,6 +191,7 @@
 	vertical-align:top;
 	
 }
+
 #meet_team_list h4 {
 
 	text-align:center;
@@ -204,6 +205,7 @@
 	float:left;
 	
 }
+
 #meet_team_list {
 
 	clear:none;
@@ -234,9 +236,11 @@
 	color:white;
 	
 }
+
 #social a {
 	color:white;
 }
+
 @font-face{
 	
 	font-family: junction;
