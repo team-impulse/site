@@ -1,10 +1,15 @@
 * {
+	
 	margin:0px;
-	padding:0px;	
+	padding:0px;
+	
 }
+
 .clear_both {
+	
 	clear:both;
 }
+
 #header_bar {
 	
 	background-color:#8F0000;
@@ -20,19 +25,59 @@
 	
 }
 
-#nav {
+#header_link {
+
 	display:block;
 	margin:0.5% auto 0 auto;
 	text-align:center;
+	
+}
+
+#header_link a {
+
+	color:#008F00;
+	text-decoration:none;
+	font-size:1.5em;
+	transition:	color 0.6s;
+	font-family:junction;
+	
+}
+
+#header_link h1 {
+
+	color:white;
+	
+}
+
+#header_link a:hover {
+	
+	color:white;
+	text-decoration:underline;
 
 }
+	
+
+#nav {
+
+	display:block;
+	margin:0.5% auto 0 auto;
+	text-align:center;
+	border-bottom-style: solid;
+	border-color: #008F00;
+	border-width: 2px;
+
+}
+
 #nav li {
+
 	display:inline;
 	text-align:center;
 	margin:0 2%;
 	list-style-type:none;
+	
 }
 #normal_nav li { /* normal_nav can be applied to the div using javascript for normal browsers to make everything centre properly, but anything non-widescreen needs standard #nav */
+	
 	display:inline-block;
 	text-align:center;
 	width:12%;
@@ -42,7 +87,9 @@
 	border-right:2px solid white;
 	
 }
+
 #nav a {
+
 	color:#008F00;
 	text-decoration:none;
 	font-size:1.5em;
@@ -55,33 +102,40 @@
 }
 
 #nav a:hover {
+
 	color:white;
 	text-decoration:underline;
 
 }
 
 #content_wrapper {
+
 	font-family: junction;
 
 }
 
 #sep-img_1 {
+
+	width:100%;
 	
 }
 
 #blog_posts {
+	
 	width:75%;
 	float:right;
-	border-left: 5px dotted #8F0000;
-	border-bottom:5px dotted #8F0000;
-	border-top:5px dotted #8F0000;
-	border-bottom-left-radius:15px;
-	border-top-left-radius:15px;
+	border-left: 2px dotted #8F0000;
+	border-bottom: 2px dotted #8F0000;
+	border-top:2px dotted #8F0000;
+	border-bottom-left-radius:1vw;
+	border-top-left-radius:1vw;
 	padding:3px;
+	margin: 1%;
 
 }
 
 #about_us {
+
 	float:left;
 	width:75%;
 	padding:3px 3px 3px 15px;
@@ -89,8 +143,9 @@
 	border-bottom:2px solid #8F0000;
 	border-top:2px solid #8F0000;
 	
-	border-bottom-right-radius:15px;
-	border-top-right-radius:15px;
+	border-bottom-right-radius:1vw;
+	border-top-right-radius:1vw;
+	
 }
 
 #logo_div img{
@@ -101,63 +156,86 @@
 }
 
 #about_blog_wrapper {
-	background-image:url(img/bg_green.svg);
+	/*background-image:url(img/bg_green.svg);*/
 	background-size:50%;
 	display:block;
 	padding:1% 0px 2% 0px;
 }
+
 #meet_team {
-text-align:center;
+
+	margin: auto;
+	text-align:center;
 	background:grey;
 	padding:2% 0;
+	
 }
 #meet_team_list li {
+
+	position: sticky;
+	left: 50%;
 	display:inline-block;
 	clear:none;
-	border:5px dashed red;
-	width:30%;
-	padding:3px;
-	margin:2.5% 3%;
+	width:30vw;
+	height:15vw;
+	padding: 1%;
+	margin: 2.5% 3%;
 	list-style-type: none;
-	text-align:left;
+	text-align: left;
 	background:white;
-	border-radius:15px;	
+	border-radius: 1vw;
+	vertical-align:top;
+	
 }
 #meet_team_list h4 {
+
 	text-align:center;
+	
 }
+
 #meet_team_list img {
+
 	width:50%;
+	height:100%;
 	float:left;
+	
 }
 #meet_team_list {
+
 	clear:none;
 }
+
 #footer {
 	
+	position:absolute;
+	width: 100%;
 	display:block;
 	margin:0px auto;
 	background:#8F0000;
-
 	text-align:center;
 	color:white;
+	
 }
 
 #social {
+
 	border:3px solid white;
 	border-top:none;
-	border-bottom-left-radius:15px;
-	border-bottom-right-radius:15px;
+	border-bottom-left-radius:1vw;
+	border-bottom-right-radius:1vw;
 	padding:2%;
 	margin:0px auto 1% auto;
 	width:25%;
 	background:#006400;
 	color:white;
+	
 }
 #social a {
 	color:white;
 }
 @font-face{
+	
 	font-family: junction;
 	src: url(fonts/junction-regular.woff);
+	
 }
