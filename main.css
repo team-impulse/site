@@ -98,6 +98,7 @@
 	
 }
 #nav h1 {
+	
 	color:white;
 }
 
@@ -149,6 +150,7 @@
 }
 
 #logo_div img{
+	
 	height:250px;
 	clear:right;
 	display:block;
@@ -156,6 +158,7 @@
 }
 
 #about_blog_wrapper {
+	
 	/*background-image:url(img/bg_green.svg);*/
 	background-size:50%;
 	display:block;
@@ -170,6 +173,7 @@
 	padding:2% 0;
 	
 }
+
 #meet_team_list li {
 
 	position: sticky;
