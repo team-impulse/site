@@ -12,7 +12,7 @@
 
 #header_bar {
 	
-	background-color:#8F0000;
+	background-color:#0080FF;
 	display:block;
 	text-align:center;
 	color:white;
@@ -35,7 +35,7 @@
 
 #header_link a {
 
-	color:#008F00;
+	color:#0080FF;
 	text-decoration:none;
 	font-size:1.5em;
 	transition:	color 0.6s;
@@ -63,7 +63,7 @@
 	margin:0.5% auto 0 auto;
 	text-align:center;
 	border-bottom-style: solid;
-	border-color: #008F00;
+	border-color: #8F0000;
 	border-width: 2px;
 
 }
@@ -90,7 +90,7 @@
 
 #nav a {
 
-	color:#008F00;
+	color:#8F0000;
 	text-decoration:none;
 	font-size:1.5em;
 	transition:	color 0.6s;
@@ -104,7 +104,7 @@
 
 #nav a:hover {
 
-	color:blue; /*temp colour only - to be considered*/
+	color:#0080FF; /*temp colour only - to be considered*/
 	text-decoration:underline;
 
 }
@@ -169,7 +169,7 @@
 
 	margin: auto;
 	text-align:center;
-	background:grey;
+	background:#C3C7C4;
 	padding:2% 0;
 	
 }
@@ -217,7 +217,7 @@
 	width: 100%;
 	display:block;
 	margin:0px auto;
-	background:#8F0000;
+	background:#0080FF;
 	text-align:center;
 	color:white;
 	
@@ -232,7 +232,7 @@
 	padding:2%;
 	margin:0px auto 1% auto;
 	width:25%;
-	background:#006400;
+	background:grey;
 	color:white;
 	
 }
