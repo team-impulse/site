@@ -1,4 +1,5 @@
 site
 ====
 
-Development repository for the team website.
+Repository for the development of the team website.
+
