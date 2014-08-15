@@ -187,7 +187,6 @@
 	display:inline-block;
 	clear:none;
 	width:30vw;
-	height:15vw;
 	padding: 1%;
 	margin: 2.5% 3%;
 	list-style-type: none;
@@ -197,7 +196,11 @@
 	vertical-align:top;
 	
 }
-
+.team_content_wrapper {
+	float:right;
+	display:inline;
+	width:45%;
+}
 #meet_team_list h4 {
 
 	text-align:center;
@@ -251,5 +254,55 @@
 	
 	font-family: junction;
 	src: url(fonts/junction-regular.woff);
+	
+}
+
+@media all and (max-width: 850px) {
+	/* narrower screen CSS */
+
+	#about_us {
+		width:100%;
+		border-right:none;
+		border-top-right-radius:0;
+		border-bottom-right-radius:0;
+		margin:0;
+		margin-bottom:2%;
+		padding:0px;
+	}
+
+	#logo_div {
+	clear:both;
+	}
+
+	#blog_posts {
+		width:100%;
+		padding:0px;
+		margin:0px;
+		margin-top:2%;
+		border-top-left-radius:0;
+		border-bottom-left-radius:0;
+		border-left:none;
+	}
+
+	#meet_team_list li {
+		width:100%;
+		clear:both;
+		margin:1% 0;
+		text-align:center;
+	}
+
+	#meet_team_list img {
+		display:block;
+		width:50%;
+		float:none;
+		margin:0 auto;
+		
+		}
+
+	.team_content_wrapper {
+		
+		display:inline;
+		width:100%;
+	}
 	
 }
