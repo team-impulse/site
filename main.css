@@ -135,6 +135,10 @@
 
 }
 
+#blog_posts ol{
+	list-style-type:none;
+}
+
 #about_us {
 
 	float:left;
