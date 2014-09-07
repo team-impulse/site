@@ -135,6 +135,20 @@
 
 }
 
+#blog_posts_left {
+	
+	width:75%;
+	float:left;
+	border-right: 2px dotted #0080FF;
+	border-bottom: 2px dotted #0080FF;
+	border-top:2px dotted #0080FF;
+	border-bottom-right-radius:1vw;
+	border-top-right-radius:1vw;
+	padding:3px;
+	margin: 1%;
+
+}
+
 #blog_posts ol{
 	list-style-type:none;
 }
