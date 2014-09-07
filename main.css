@@ -121,8 +121,18 @@
 	
 }
 
+#news_wrapper {
+	
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: auto;
+
+}
+
 #blog_posts {
 	
+	display: block;
 	width:75%;
 	float:right;
 	border-left: 2px dotted #0080FF;
@@ -137,6 +147,7 @@
 
 #blog_posts_left {
 	
+	display: block;
 	width:75%;
 	float:left;
 	border-right: 2px dotted #0080FF;
