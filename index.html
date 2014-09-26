@@ -4,6 +4,8 @@
   <head>
     <title>Team IMPULSE</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src = "jquery-2.1.1.min.js"></script>
+    <script src = "main.js"></script>
   </head>
 
   <body>
@@ -27,7 +29,7 @@
           <p>Team Impulse was formed in Spring 2014 to enter the 2014/15 UK CanSat competition. Although this had not then been announced, we drafted a document describing aims and analysing the problem from an engineering perspective. We submitted the proposal to our school's engineering department and it was accepted; it will go forwards for consideration by the UK branch of the European Space Agency, which organises the challenge.</p>
 
           <h3>But what is a CanSat?</h3>
-          <p>A CanSat is a student-built "satellite" in the form of a standard soft drinks can - 115mm tall and 66mm in diameter. The CanSat must complete a specified mission, in this case the measurement of a set of parameters and autonomous ground navigation  to a transmitted location. Whilst collecting these data, it is dropped from between 300 and 1000m; it will be launched by rocket, balloon, crane, light aircraft...the sky's the limit! For more information  on the CanSat mission proposed, please see <i></i><a href="mission.html">Mission</a></i> above!</p>
+          <p>A CanSat is a student-built "satellite" in the form of a standard soft drinks can - 115mm tall and 66mm in diameter. The CanSat must complete a specified mission, in this case the measurement of a set of parameters and autonomous ground navigation  to a transmitted location. Whilst collecting these data, it is dropped from between 300 and 1000m; it will be launched by rocket, balloon, crane, light aircraft...the sky's the limit! For more information  on the CanSat mission proposed, please see <i>Mission</i> below.</p>
 
         </div>
 
@@ -42,15 +44,24 @@
         <div id="blog_posts">
           <h3>Here's the latest:</h3>
           <ol>
-            <li><div class = "news_item_header"></div>
-				<div class = "news_item_main"></div>
+            <li id = "first_news_item"><div class = "news_item_header">Team Impulse entry announced</div>
+				<div>On 19th September 2014, the teachers' conference for the British competition took place, 
+				and Dr S Patterson (of St Paul's) spoke briefly on behalf of Team Impulse. The entry has already been accepted and 
+				some progress on design has already been made. </div>
             </li>
+            <li><div class = "news_item_header">Entry made</div>
+				<div>At the end of the summer term of the 2013/14 academic year, after GCSEs, a proposal for Team Impulse's CanSat project was drawn up.</div>
+            </li>
+<p id = "more_news_link">More...</p>
           </ol>
         </div>
 
         <div class="clear_both"></div>
       </div>
-
+	  <div id = "mission_details">
+	  <h3>Mission</h3>
+	  <div id = "basic_expl"></div>
+	  </div>
       <div id="meet_team">
         <h1>Meet the team:</h1>
 
@@ -59,7 +70,6 @@
         <ul id="meet_team_list">
 
           <li >
-            <img src="img/william.jpg"/>
 			<div class = "team_content_wrapper">
             <h4>William Eustace</h4>
             <p>Team Leader; programming, electronics and hardware roles as well. Twitter: @WilliamEustace</p>
@@ -67,14 +77,12 @@
           </li><br/>
           
           <li>
-            <img src="img/placeholder.png"/>
 			<div class = "team_content_wrapper">
             <h4>Euan Baines</h4>
             <p>Deputy Team Leader. Lead Electronics developer. Programmer.</p></div>
           </li>
 
           <li>
-            <img src="img/placeholder.png"/>
 			<div class = "team_content_wrapper">
             <h4>Yuki de Pourbaix</h4>
             <p>Lead Hardware Developer. Some other stuff too.</p>
@@ -83,7 +91,6 @@
 
 
           <li>
-            <img src="img/placeholder.png"/>
 			<div class = "team_content_wrapper">
             <h4>Alex Forey</h4>
             <p>Lead programmer; some electronics. Twitter etc?</p>
@@ -91,7 +98,6 @@
           </li>
 
           <li>
-            <img src="img/placeholder.png"/>
             <div class = "team_content_wrapper">
 			<h4>Neel le Penru</h4>
             <p>Hardware development; some electronics. Social?</p>
@@ -99,14 +105,12 @@
           </li>
 
           <li>
-            <img src="img/placeholder.png"/>
 			<div class = "team_content_wrapper">
             <h4>Hugo Cheema-Grubb</h4>
             <p>Outreach programme director: possibly some other things? Social?</p></div>
           </li>
           
           <li>
-            <img src="img/placeholder.png"/>
 			<div class = "team_content_wrapper">
             <h4>James Crompton</h4>
             <p> Electronics and Hardware </p></div>
@@ -121,7 +125,9 @@
 
       <div id="footer">
         <div id="social">
-          <a href="twitter.com" name="Twitter">Twitter here</a>
+                      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/TeamImpulseSPS" data-widget-id="515640691511160832">Tweets by @TeamImpulseSPS</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
         </div>
         <p>Team Impulse (St Paul's School, London SW13 9JT)</p>
         <p>&copy; Team Impulse 2014</p>

@@ -68,14 +68,7 @@
 
 }
 
-#news_wrapper {
 
-	display: block;
-
-	width: 100%;
-	height: auto;
-
-}
 
 #blog_posts {
 
@@ -92,21 +85,20 @@
 	margin-right:0;
 
 }
-
-.blog_posts_left {
-
-	display: block;
-	width:75%;
-	float:left;
-	border-right: 2px dotted #0080FF;
-	border-bottom: 2px dotted #0080FF;
-	border-top:2px dotted #0080FF;
-	border-bottom-right-radius:1vw;
-	border-top-right-radius:1vw;
-	padding:3px;
-	margin: 1%;
-	margin-left:0;
-
+/* -----------------------
+ * News formatting section here
+ */
+.news_item_header {
+	
+	font-family:junction-bold;
+}
+#more_news_link {
+	font-family:junction-bold;
+	color:#0080FF;
+}
+#blog_posts li{
+	padding:5px 0px;
+		
 }
 
 #blog_posts ol{
@@ -169,9 +161,9 @@
 
 }
 .team_content_wrapper {
-	float:right;
+/*	float:right;			THIS IS TO BE USED WHEN IMAGES INCLUDED.
 	display:inline;
-	width:45%;
+	width:45%;*/
 }
 #meet_team_list h4 {
 
@@ -209,10 +201,10 @@
 	border-top:none;
 	border-bottom-left-radius:1vw;
 	border-bottom-right-radius:1vw;
-	padding:2%;
+	padding:0;
 	margin:0px auto 1% auto;
 	width:25%;
-	background:grey;
+	background:#333333;
 	color:white;
 
 }
@@ -226,6 +218,10 @@
 	font-family: junction;
 	src: url(fonts/junction-regular.woff);
 
+}
+@font-face{
+	font-family: junction-bold;
+	src: url(fonts/junction-bold.woff);
 }
 
 @media all and (max-width: 850px) {
