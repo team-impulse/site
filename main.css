@@ -206,6 +206,7 @@
 	width:25%;
 	background:#333333;
 	color:white;
+	text-align:center;
 
 }
 
@@ -240,7 +241,7 @@
 #mission_contents_wrapper {
 	padding:5%;
 	width:50%;
-
+	
 	display:block;
 	margin:0px auto;
 	text-align:justify;
@@ -320,5 +321,9 @@
 		width:100%;
 
 	}
+	#social {
+		margin:5% 0;
+		width:100%;
+		text-align:center;	}
 
 }
