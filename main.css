@@ -213,6 +213,44 @@
 	color:white;
 }
 
+/* =====================
+ * Mission space.
+ */
+ 
+#mission_details {
+	clear:both;
+	display:block;
+	width:100%;
+	background:#0080FF;
+	padding:5px;	
+	min-height:400px;
+}
+#rocket_img {
+	float:left;
+	display:block-inline;
+	height:200px;
+	margin:3% 5% 5% 5%;
+}
+#cansat_desc_img{
+	float:right;
+	display:inline;
+	margin:5% 5%;
+	
+}
+#mission_contents_wrapper {
+	padding:5%;
+	width:50%;
+
+	display:block;
+	margin:0px auto;
+	text-align:justify;
+	clear:none;
+	color:white;
+}
+#mission_contents_wrapper h3 {
+	text-align:center;
+	}
+
 @font-face{
 
 	font-family: junction;

@@ -29,7 +29,7 @@
           <p>Team Impulse was formed in Spring 2014 to enter the 2014/15 UK CanSat competition. Although this had not then been announced, we drafted a document describing aims and analysing the problem from an engineering perspective. We submitted the proposal to our school's engineering department and it was accepted; it will go forwards for consideration by the UK branch of the European Space Agency, which organises the challenge.</p>
 
           <h3>But what is a CanSat?</h3>
-          <p>A CanSat is a student-built "satellite" in the form of a standard soft drinks can - 115mm tall and 66mm in diameter. The CanSat must complete a specified mission, in this case the measurement of a set of parameters and autonomous ground navigation  to a transmitted location. Whilst collecting these data, it is dropped from between 300 and 1000m; it will be launched by rocket, balloon, crane, light aircraft...the sky's the limit! For more information  on the CanSat mission proposed, please see <i>Mission</i> below.</p>
+          <p>A CanSat is a student-built "satellite" in the form of a standard soft drinks can - 115mm tall and 66mm in diameter. The CanSat must complete a specified mission, in this case the measurement of a set of parameters and autonomous ground navigation  to a transmitted location. Whilst collecting these data, it is dropped from between 300 and 1000m; it will be launched by rocket, balloon, crane, or even light aircraft! For more information  on the CanSat mission proposed, please see <i>Mission</i> below.</p>
 
         </div>
 
@@ -58,9 +58,16 @@
 
         <div class="clear_both"></div>
       </div>
-	  <div id = "mission_details">
+	  <div id = "mission_details"><img src = "img/rocket_alone.svg" id = "rocket_img"></img>
+	  <img src = "img/can_alone.svg" id = "cansat_desc_img"></img>
+	  <div id = "mission_contents_wrapper">
 	  <h3>Mission</h3>
-	  <div id = "basic_expl"></div>
+	  <div>The CanSat is launched and descends, transmitting back to base the (mandatory) air pressure and temperature data, 
+	  along with relative humidity and GPS location. Upon landing, the parachute is released by telecommand, and the 
+	  CanSat deploys an extendible boom, which prevents the device from spinning. The base station will then transmit 
+	  waypoints, in the form of a longitude and latitude, to the device, and it will navigate to them, recording video to an 
+	  on-board card and possibly streaming it back over an off-the-shelf system designed for R/C cars. This is a comprehensive 'come-back CanSat!'</div>
+	  
 	  </div>
       <div id="meet_team">
         <h1>Meet the team:</h1>
@@ -72,7 +79,7 @@
           <li >
 			<div class = "team_content_wrapper">
             <h4>William Eustace</h4>
-            <p>Team Leader; programming, electronics and hardware roles as well. Twitter: @WilliamEustace</p>
+            <p>Team Leader; programming, electronics and hardware roles. Twitter: @WilliamEustace</p>
 			</div>
           </li><br/>
           
@@ -85,7 +92,7 @@
           <li>
 			<div class = "team_content_wrapper">
             <h4>Yuki de Pourbaix</h4>
-            <p>Lead Hardware Developer. Some other stuff too.</p>
+            <p>Lead Hardware Developer; also plays a role in the outreach programme.</p>
 			</div>
           </li>
 
@@ -93,27 +100,27 @@
           <li>
 			<div class = "team_content_wrapper">
             <h4>Alex Forey</h4>
-            <p>Lead programmer; some electronics. Twitter etc?</p>
+            <p>Lead programmer; some electronics. Front-end software in particular.</p>
 			</div>
           </li>
 
           <li>
             <div class = "team_content_wrapper">
 			<h4>Neel le Penru</h4>
-            <p>Hardware development; some electronics. Social?</p>
+            <p>Hardware development - specialising in parachute release.</p>
 			</div>
           </li>
 
           <li>
 			<div class = "team_content_wrapper">
             <h4>Hugo Cheema-Grubb</h4>
-            <p>Outreach programme director: possibly some other things? Social?</p></div>
+            <p>Outreach programme director, likely to double as a programmer. </p></div>
           </li>
           
           <li>
 			<div class = "team_content_wrapper">
             <h4>James Crompton</h4>
-            <p> Electronics and Hardware </p></div>
+            <p> Electronics specialist with hardware and software ability. </p></div>
           </li>
 
         </ul>
@@ -125,11 +132,36 @@
 
       <div id="footer">
         <div id="social">
-                      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/TeamImpulseSPS" data-widget-id="515640691511160832">Tweets by @TeamImpulseSPS</a>
+             <!--         <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/TeamImpulseSPS" data-widget-id="515640691511160832">Tweets by @TeamImpulseSPS</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          
+          -->
         </div>
         <p>Team Impulse (St Paul's School, London SW13 9JT)</p>
+        <p>Contact Us: <script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "k5LLB@u5Pl0lYEL.I5"
+  key = "sFer1avLETd0wJGknUIW52pPHDyb86KoMmtqZgO4Y7X3VcR9SBAluCjifzNhxQ"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {     
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script><noscript>Sorry, you need Javascript on to email me.</noscript>
+</p>
         <p>&copy; Team Impulse 2014</p>
       </div>
 

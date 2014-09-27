@@ -14,7 +14,7 @@
    id="svg3190"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 9">
+   sodipodi:docname="rocket_alone.svg">
   <defs
      id="defs3192" />
   <sodipodi:namedview
@@ -25,10 +25,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="402.1625"
+     inkscape:cx="150.73393"
      inkscape:cy="54.005196"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3234"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -86,7 +86,7 @@
          y="49.621815"
          rx="3.8444488" />
       <path
-         style="fill:#008fff;fill-opacity:1;stroke:none"
+         style="fill:#8f0000;fill-opacity:1;stroke:none"
          d="m 68.498747,434.06671 c 1.46061,9.99789 3.0632,20.00787 5.70055,29.77325 0.88246,2.86391 1.61273,5.91314 3.48231,8.31784 1.33061,1.68964 3.01355,-0.351 3.547,-1.66637 2.24075,-4.73723 3.29455,-9.91782 4.43899,-15.00133 1.52153,-7.26083 2.72205,-14.58642 3.74133,-21.93354 -6.97005,0.17002 -13.94011,0.34015 -20.91018,0.51015 z"
          id="path3767"
          inkscape:connector-curvature="0" />
