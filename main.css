@@ -121,10 +121,11 @@
 
 #logo_div img{
 
-	height:250px;
+	
 	clear:right;
 	display:block;
 	margin:0 auto;
+	width:15%;
 
 }
 
@@ -227,6 +228,7 @@
 	min-height:400px;
 }
 #rocket_img {
+
 	float:left;
 	display:block-inline;
 	height:200px;
@@ -236,6 +238,7 @@
 	float:right;
 	display:inline;
 	margin:5% 5%;
+	
 	
 }
 #mission_contents_wrapper {
@@ -263,7 +266,7 @@
 	src: url(fonts/junction-bold.woff);
 }
 
-@media all and (max-width: 850px) {
+@media all and (max-width: 850px), all and (max-device-width:800px) {
 	/* narrower screen CSS */
 
 	#about_us {
@@ -325,5 +328,31 @@
 		margin:5% 0;
 		width:100%;
 		text-align:center;	}
+	#mission_contents_wrapper {
+		width:95%;
+		clear:both;
+		margin:2% auto;
+		padding:0px;text-align:left;
+	
+	}
+	#mission_details {
+		min-height:0px;
+		padding:0px;margin:0px;
+	}
+	#rocket_img {
+		float:right;
+		height:200px;
+		margin:0px;
+		padding:0px;
+		
+	}
+	#cansat_desc_img {
+		float:left;
+		display:block;
+		margin:0px;
+		text-align:center;
+		padding:0px;
+		height:200px;
+	}
 
 }
