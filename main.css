@@ -89,7 +89,7 @@
  * News formatting section here
  */
 .news_item_header {
-	
+
 	font-family:junction-bold;
 }
 #more_news_link {
@@ -98,7 +98,7 @@
 }
 #blog_posts li{
 	padding:5px 0px;
-		
+
 }
 
 #blog_posts ol{
@@ -121,7 +121,7 @@
 
 #logo_div img{
 
-	
+
 	clear:right;
 	display:block;
 	margin:0 auto;
@@ -218,14 +218,14 @@
 /* =====================
  * Mission space.
  */
- 
+
 #mission_details {
 	clear:both;
 	display:block;
 	width:100%;
 	background:#0080FF;
-	padding:5px;	
-	min-height:400px;
+	padding:5px;
+
 }
 #rocket_img {
 
@@ -238,13 +238,13 @@
 	float:right;
 	display:inline;
 	margin:5% 5%;
-	
-	
+
+
 }
 #mission_contents_wrapper {
 	padding:5%;
 	width:50%;
-	
+
 	display:block;
 	margin:0px auto;
 	text-align:justify;
@@ -254,7 +254,44 @@
 #mission_contents_wrapper h3 {
 	text-align:center;
 	}
+/* ====================
+	Sponsor space
+	=============
+	*/
 
+#sponsorship {
+		background:	white;
+
+margin:0px;
+width:100%;
+padding:0px;
+}
+#sponsorship h1 {
+	text-align:center;
+
+}
+
+#sponsor_list {
+	text-align:center;
+	display:block;
+	list-style-type:none;
+}
+
+#sponsor_list li {
+	width:70%;
+	display:block;
+	clear:both;
+	text-align:center;
+	margin:0px auto;
+}
+#sponsor_list img{
+	display:inline-block;
+	width:100%;
+}
+
+/*==========
+Fonts
+*/
 @font-face{
 
 	font-family: junction;
@@ -333,7 +370,7 @@
 		clear:both;
 		margin:2% auto;
 		padding:0px;text-align:left;
-	
+
 	}
 	#mission_details {
 		min-height:0px;
@@ -344,7 +381,7 @@
 		height:200px;
 		margin:0px;
 		padding:0px;
-		
+
 	}
 	#cansat_desc_img {
 		float:left;
